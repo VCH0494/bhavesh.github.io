@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family:oswald; overflow-x: hidden;
+overflow-y: scroll;
+}
+::selection {
+  background: #1d262d; color:#1d262d;
+}
+::-moz-selection {
+  background: #1d262d; color:#1d262d;
+}
+a{text-decoration:none;}
+a:hover, a:active, a:focus {
+  outline:0;
+   text-decoration: none;
+}
+
+.paddingLeftRight0{padding-left:0 !important; padding-right:0 !important;}
+.firstDiv{background:#1d262d; height:100vh;}
+.MyImg{bottom:0; position:fixed; bottom:0; left:0;  filter:blur(14px); opacity:.8; transition: all 1s ease 0s; margin-left:0%;}
+.MyImg:hover{ filter:blur(0px); opacity:1; transition: all 1s ease 0s;}
+.MyName{margin-top:0%; opacity:0; position:relative; z-index:1000; float:left;}
+.MyDesignandDevelopText{margin-top:0%; opacity:0; position:relative; z-index:1000; float:left;}
+.moreProjectText{text-align:center; font-weight:100; font-size:30px; color:#333; font-family:oswald; position:relative; padding:40px 0px 20px; margin:0;}
+.goodWillLinkText{position:relative; padding:30px 0px 0px; margin:0; clear:both; text-align:center; font-weight:100; font-size:18px; color:#00539f; font-family: oswald; z-index:100;}
+
+
+.SecondDiv{background:#FC0; height:100vh; z-index:100; position:relative;}
+.FirstPageNameHeading{padding:0 0 0 10%; float:left; font-family:oswald; font-size:50px; font-weight:700; color:#2c3842; width:100%;}
+.FirstPageNameText{padding:0 0 0 10%; margin:0; float:left; font-family:oswald; font-weight:200; font-size:35px; color:#687d8e; line-height:60px; width:100%;}
+.GoodWillImgOne{padding:0px; float:left; position:absolute; margin:8% 0px 0px 2%}
+.GoodWillImgTwo{position: absolute; text-align: center; padding: 0px; margin: 0px 0px 0px 25%; z-index:100;}
+.GoodWillImgThree{padding: 0px; float: right; margin: 8% 7% 0px 0px;"  data-aos="fade-left}
+
+.skillIcon{padding:0; margin:0; float:left; width:100%;}
+.skillIcon ul{padding:0 0 0 10%; margin:20px 0 0; float:left; width:100%;}
+.skillIcon ul li{padding:0; margin:10px; float:left; list-style-type:none; opacity:0.2; transition: all 1s ease 0s; cursor:pointer;}
+.skillIcon ul li:hover{opacity:1; transition: all 1s ease 0s;}
+.ResponsiveWedHeading{float:left; width:100%; margin:0; padding:0; text-align:center; font-weight:700; font-size:115px; color:#FC0; font-family:oswald; opacity:1; letter-spacing: 19px; text-shadow:0px 2px 2px #BF9E60}
+.WebAppHeading{float:left; width:100%; margin:-82px 0px 0px; padding:0; text-align:center; text-align:center; font-weight:500; font-size:24px; color:#1D262D; font-family:oswald; letter-spacing:11px; text-transform:uppercase;}
+.SiteLink{padding:0; margin:0; float:left; width:100%;}
+.SiteLink ul{padding:0; margin:0; float:left; width:100%;}
+.SiteLink ul li{padding:5px 25px; margin:0; float:left; font-size:17px; color:#ba9b21; font-family:oswald; font-weight:100; list-style-type:none; }
+.SiteLink ul li a{color:#ba9b21; transition: all 1s ease 0s; text-decoration:none;}
+.SiteLink ul li a:hover{color:#000; text-decoration:none;}
+.marginTop{padding-top:50px;}
+
+.ThardDiv{background:#8803B9; height:100vh; z-index:100; position:relative;}
+.MobileAppdHeading{float:left; width:100%; margin:0; padding:0; text-align:center; font-weight:700; font-size:115px; color:#8803B9; font-family:oswald; opacity:1; letter-spacing: 19px; text-shadow:0px 2px 2px #B946FF}
+.WebAppHeading{float:left; width:100%; margin:-82px 0px 0px; padding:0; text-align:center; text-align:center; font-weight:500; font-size:24px; color:#fff; font-family:oswald; letter-spacing:11px; text-transform:uppercase;}
+.appImage1_1{z-index:100; position: relative}
+.appImage1_2{margin-top: -142px; z-index: 10; position: relative}
+.appImage1_3{margin-top: -142px; z-index: 1; position: relative}
+
+.YellowColor{color:#FC0 !important;}
+.AppMobileName{position:relative; padding:30px 0px 0px; margin:0; clear:both; text-align:center; font-weight:100; font-size:18px; color:#FAADFC; font-family: oswald; z-index:100; cursor:pointer;  transition: all 1s ease 0s;}
+.AppMobileName:hover{color:#fff;  transition: all 1s ease 0s;}
+.AppMobileName span{border:1px #C405FF solid; border-radius:15px; padding:5px 50px;}
+.AppMobileName:hover span{border:1px #8803B9 solid; transition: all 1s ease 0s;}
+.MobileAllName{padding: 0px; margin:0px; float:left;  width:100%;}
+.MobileAllName ul{padding: 0px; margin:0px; float:left;  width:100%;}
+.MobileAllName ul li{padding:100px 0px 0px; margin:0px; float:left;  width:33.3%; text-align:center; color:#fff; font-size:20px; bottom:20px; font-weight:100;}
+.ExperienceHeading {float:left; width:100%; margin:0px;  padding:30px 0px 0px;  text-align:center; font-weight:700; font-size:70px; color: #8D00FF;
+font-family: oswald; opacity: 1; text-shadow: 0px 2px 4px #000;}
+.ExperienceText {float:left; width:100%; margin:0px;  padding:0px 8%;  text-align:center; font-size:20px; color:#0181A4; font-weight:100; line-height:39px; font-family: oswald; opacity: 1; transition: all 1s ease 0s;}
+.ExperienceText:hover{color:#003B4B}
+
+.SkillSummaryHeading {float: left; width:100%; margin:0px; padding:30px 0px 0px; text-align: center; font-weight:500; font-size:32px; color:#FFE100;
+    font-family: oswald;}
+.SkillSummary{float:left; padding:0; margin:0; width:100%;}	
+.SkillSummary ul{float:left; padding:0; margin:0; width:100%;}	
+.SkillSummary ul li{float: left; width:33.3%; margin:0px; padding:0px; list-style-type:none; }
+.SkillSummary ul li span{border:1px #3D3799 solid; width:60%; float:left; text-align:center; margin:9px 0px 0px 20%; font-weight:100; font-size:17px; color:#40C9FF;  font-family: oswald; padding:3px; border-radius:15px; transition: all 1s ease 0s;}
+.SkillSummary ul li span:hover{border:1px #1370A2 solid; color:#FFF;}
+.SkillSummary ul li span:first-child{border:0px #22A3E4 solid; padding:0px; font-weight:500; color:#4eff00; font-size:18px;}
+.lastDiv{background:#3c1c72 url(../images/Vid4_BG_Img.jpg); background-repeat:no-repeat; background-position:bottom center; width: 100%;
+margin: 0px; float: left; padding: 0px; height: 100vh; position: relative; top: 0px; bottom: 0px;}	
+
+@media (min-width:992px) and  (max-width:1200px)
+{
+.MyImg{width:48%;}
+}
+
+@media (min-width:768px) and  (max-width:991px)
+{
+	::selection {
+  background: #fff; color:#1d262d;
+}
+::-moz-selection {
+  background: #fff; color:#1d262d;
+}
+.FirstPageNameHeading{color:#FCFCFC;}
+.ResponsiveWedHeading{font-size:76px; letter-spacing:10px;} 
+.WebAppHeading {margin:-61px 0px 0px;}
+.marginTop{padding-top:10px;}
+.goodWillLinkText {padding:11px 0px 0px;}
+.SiteLink ul li {padding:4px 25px; font-size: 16px; color:#846D11;}
+.moreProjectText{font-size:24px;}
+.SiteLink{line-height:10px;}
+.marginTop{padding-top: 0px;}
+.MobileAppdHeading{line-height:100px;}
+.MobileAllName ul li{padding:20px 0px 0px;}
+.GoodWillImgTwo{width:49%;}
+.GoodWillImgOne {margin:6% 0px 0px 0%; width:46%; }
+.GoodWillImgThree{margin:6% 0% 0px 0px; width:50%;}
+.MobileAppdHeading{font-size: 83px;}
+.appImage1_1 {top:37px;}
+.appImage1_2{margin-top: -81px;}
+.appImage1_3{margin-top: -119px;}
+}
+@media (min-width:480px) and  (max-width:767px)
+{
+.MyImg{width:78%;}	
+.FirstPageNameHeading{font-size:39px; color:#FFF; }
+.FirstPageNameText{font-size:26px; color:#00FFE4;}
+.ResponsiveWedHeading{font-size:60px; letter-spacing:6px;}
+.WebAppHeading{font-size:22px; letter-spacing: 5px; margin: -54px 0px 0px;}
+.SecondDiv{height:100%;}
+.GoodWillImgTwo{width: 50%;}
+.GoodWillImgOne{margin:8% 0px 0px 0%; width:46%;}
+.GoodWillImgThree{margin:8% 0% 0px 0px; width: 49.5%;}
+.moreProjectText{font-size: 24px;}
+.SiteLink ul li{font-size:15px;}
+.SiteLink ul li a {color:#6E6132;}
+.ThardDiv {height:100%;}
+.MobileAppdHeading{font-size:60px; letter-spacing:13px;}
+.ExperienceHeading{padding: 8px 0px 0px; font-size:55px;}
+.MobileAllName ul li{padding:42px 0px 16px;}
+.lastDiv{height:100%;}
+.SkillSummary ul li span{font-size:15px; width:70%;}
+.ExperienceText{color:#5DD8F9;}
+.AppMobileName {padding: 27px 0px 45px;}
+}
+
+@media (min-width:360px) and  (max-width:479px)
+{
+.MyImg{width:78%;}
+.FirstPageNameHeading{font-size:37px; color:#FFF; padding: 0px 0px 0px 6%;}
+.skillIcon ul{padding: 0px 0px 0px 0%;}
+.skillIcon ul li{margin:5px; opacity:0.6;}
+.FirstPageNameText{font-size:21px; color:#00FFE4; padding: 0px 0px 0px 6%; line-height:42px;}
+.ResponsiveWedHeading{font-size:60px; letter-spacing:6px;}
+.WebAppHeading{font-size:22px; letter-spacing: 5px; margin: -54px 0px 0px;}
+.SecondDiv{height:100%;}
+.GoodWillImgTwo{width: 50%;}
+.GoodWillImgOne{margin:8% 0px 0px 0%; width:46%;}
+.GoodWillImgThree{margin:10% 0% 0px 0px; width: 49.5%;}
+.moreProjectText{font-size: 24px;}
+.SiteLink ul li{font-size:15px;}
+.SiteLink ul li a {color:#6E6132;}
+.ThardDiv {height:100%;}
+.MobileAppdHeading{font-size:60px; letter-spacing:13px;}
+.ExperienceHeading{padding:8px 0px 0px; font-size:44px;}
+.MobileAllName ul li{padding:42px 0px 16px;}
+.lastDiv{height:100%;}
+.SkillSummary ul li span{font-size:15px; width:70%;}
+.ExperienceText{color:#5DD8F9;}
+.appImage1_1 {top:37px;}
+.appImage1_2{margin-top: -69px;}
+.appImage1_3{margin-top: -109px;}
+}
+
+@media (min-width:320px) and  (max-width:359px)
+{
+.MyImg{width:78%;}
+.FirstPageNameHeading{font-size:32px; color:#FFF; padding: 0px 0px 0px 6%;}
+.skillIcon ul{padding: 0px 0px 0px 0%;}
+.skillIcon ul li{margin:5px; opacity:0.6;}
+.FirstPageNameText{font-size:18px; color:#00FFE4; padding: 0px 0px 0px 6%; line-height:42px;}
+.ResponsiveWedHeading{font-size:60px; letter-spacing:6px;}
+.WebAppHeading{font-size:22px; letter-spacing: 5px; margin: -54px 0px 0px;}
+.SecondDiv{height:100%;}
+.GoodWillImgTwo{width: 50%;}
+.GoodWillImgOne{margin:8% 0px 0px 0%; width:46%;}
+.GoodWillImgThree{margin:10% 0% 0px 0px; width: 49.5%;}
+.moreProjectText{font-size: 24px;}
+.SiteLink ul li{font-size:15px;}
+.SiteLink ul li a {color:#6E6132;}
+.ThardDiv {height:100%;}
+.MobileAppdHeading{font-size:60px; letter-spacing:13px;}
+.ExperienceHeading{padding:8px 0px 0px; font-size:44px;}
+.MobileAllName ul li{padding:42px 0px 16px;}
+.lastDiv{height:100%;}
+.SkillSummary ul li span{font-size:15px; width:70%;}
+.ExperienceText{color:#5DD8F9;}
+.appImage1_1 {top:37px;}
+.appImage1_2{margin-top: -54px;}
+.appImage1_3{margin-top: -90px;}
+}
